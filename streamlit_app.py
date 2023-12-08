@@ -24,7 +24,7 @@ def dhms_from_seconds(seconds):
 	days, hours = divmod(hours, 24)
 	return (days, hours, minutes, seconds)
 
-data_cloud_summit_24_date = datetime.strptime('2024-06-03 01:00:00', '%Y-%m-%d %H:%M:%S')
+data_cloud_summit_24_date = datetime.strptime('2024-06-03 08:00:00', '%Y-%m-%d %H:%M:%S')
 to_day = datetime.now()
 
 days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(data_cloud_summit_24_date,to_day))
