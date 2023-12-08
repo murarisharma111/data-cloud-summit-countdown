@@ -1,14 +1,14 @@
 # Import the necessary libraries
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
-from datetime import datetime, time
+from datetime import datetime
 
 # Setup web page
 st.set_page_config(
     page_title="Data Cloud Summit 24",
     menu_items={
         "Get Help": "https://developers.snowflake.com",
-        "About": "The source code for this application can be accessed on GitHub https://github.com/iamontheinet/did-you-miss-me",
+        "About": "The source code for this application can be accessed on GitHub https://github.com/iamontheinet/data-cloud-summit-countdown",
     },
 )
 
