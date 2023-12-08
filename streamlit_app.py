@@ -12,7 +12,7 @@ st.set_page_config(
     },
 )
 
-# count = st_autorefresh(interval=1000, limit=1000, key="datacloudsummitcounter")
+count = st_autorefresh(interval=1000, limit=1000, key="datacloudsummitcounter")
 
 def date_diff_in_seconds(dt2, dt1):
   timedelta = dt2 - dt1
