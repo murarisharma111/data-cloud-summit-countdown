@@ -51,7 +51,7 @@ with st.container():
 st.markdown("___")
 spaces = "          "
 st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Speak At Summit](https://www.snowflake.com/summit/call-for-papers/)")
-st.caption(f"App developed by Dash // [Twitter](https://twitter.com/iamontheinet) | [LinkedIn](https://www.linkedin.com/in/dash-desai/)")
+st.caption(f"App developed by Dash // [Twitter](https://twitter.com/iamontheinet) | [LinkedIn](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib Mustafa](https://www.linkedin.com/in/saqibmustafa/)")
 
 with st.container():
     col1, col2, col3 = st.columns([3,3,1])

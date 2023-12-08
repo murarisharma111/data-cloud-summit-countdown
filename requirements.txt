@@ -1,6 +1,1 @@
-requests
-beautifulsoup4
-pandas
-time
 streamlit-autorefresh
-
