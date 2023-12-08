@@ -1,0 +1,58 @@
+/* metric values */
+.e1i5pmia3 {
+  font-size: 40px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* metric headers */
+.st-emotion-cache-16idsys p {
+  font-size: 50px;
+}
+
+div[data-testid = "stMetricValue"] {
+  text-align: justify;
+}
+
+a[href ^= "https://www.snowflake.com/summit/"] {
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a[href ^= "https://www.snowflake.com/summit/"]:hover {
+  color: #ff9f36;
+}
+
+/* captions */
+div[data-testid = "stCaptionContainer"] {
+  text-align: center;
+}
+
+div[data-testid = "metric-container"] {
+  border-style: solid;
+  border-color: #ff9f36;
+  box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
+  border-radius: 10px;
+  color: #ff9f36;
+}
+
+div[data-testid = "metric-container"] p {
+  color: #ffffff;
+}
+
+h3#data-cloud-summit-24-countdown {
+  font-family: Lato-Bold,sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 span {
+  color: #ff9f36;  
+  font-size: 80px;
+  text-align: center;
+}
+
+div[data-testid = "stMarkdownContainer"] {
+  text-align: center;
+}
