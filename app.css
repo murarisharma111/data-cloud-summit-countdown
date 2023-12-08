@@ -19,9 +19,24 @@ a[href ^= "https://www.snowflake.com/summit/"] {
   text-decoration: none;
   color: #ffffff;
 }
-
 a[href ^= "https://www.snowflake.com/summit/"]:hover {
-  color: #ff9f36;
+  color: #115675;
+}
+
+a[href ^= "https://twitter"] {
+  color: #ffffff;
+  text-decoration: none;
+}
+a[href ^= "https://twitter"]:hover {
+  color: #115675;
+}
+
+a[href ^= "https://www.linkedin"] {
+  color: #ffffff;
+  text-decoration: none;
+}
+a[href ^= "https://www.linkedin"]:hover {
+  color: #115675;
 }
 
 /* captions */
@@ -34,7 +49,8 @@ div[data-testid = "metric-container"] {
   border-color: #ff9f36;
   box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
   border-radius: 10px;
-  color: #ff9f36;
+  color: #115675;
+  font-weight: 800;
 }
 
 div[data-testid = "stMetric"] {
@@ -42,7 +58,8 @@ div[data-testid = "stMetric"] {
   border-color: #ff9f36;
   box-shadow: 2px 4px 10px rgba(156,156,156,.52); 
   border-radius: 10px;
-  color: #ff9f36;
+  color: #115675;
+  font-weight: 800;
 }
 
 div[data-testid = "metric-container"] p {
@@ -55,8 +72,9 @@ h3#data-cloud-summit-24-countdown {
   text-align: center;
 }
 
+/* days value */
 h2 span {
-  color: #ff9f36;  
+  color: #115675;  
   font-size: 80px;
   text-align: center;
 }
