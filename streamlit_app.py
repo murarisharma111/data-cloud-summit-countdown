@@ -50,7 +50,7 @@ with st.container():
 
 st.markdown("___")
 spaces = "          "
-st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Speak At Summit](https://www.snowflake.com/summit/call-for-papers/)")
+st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
 st.caption(f"Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
 
 with st.container():
