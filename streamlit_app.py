@@ -24,7 +24,7 @@ def dhms_from_seconds(seconds):
 	days, hours = divmod(hours, 24)
 	return (days, hours, minutes, seconds)
 
-data_cloud_summit_24_date = datetime.strptime('2024-06-03 08:00:00', '%Y-%m-%d %H:%M:%S')
+data_cloud_summit_24_date = datetime.strptime('2025-06-02 08:00:00', '%Y-%m-%d %H:%M:%S')
 to_day = datetime.now()
 
 days, hours, minutes, seconds = dhms_from_seconds(date_diff_in_seconds(data_cloud_summit_24_date,to_day))
@@ -50,7 +50,8 @@ with st.container():
 
 st.markdown("___")
 spaces = "          "
-st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
+# st.caption(f"[Register Now](https://www.snowflake.com/summit/) // [Join Us at Dev Day](https://www.snowflake.com/summit/devday/)")
+st.caption(f"[Save The Date](https://www.snowflake.com/summit/save-the-date/)")
 st.caption(f"Developed by [Dash](https://www.linkedin.com/in/dash-desai/) // Dedicated to [Saqib](https://www.linkedin.com/in/saqibmustafa/)")
 
 with st.container():
