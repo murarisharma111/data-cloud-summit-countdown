@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Setup web page
 st.set_page_config(
-    page_title="Data Cloud Summit 24",
+    page_title="Data Cloud Summit",
     menu_items={
         "Get Help": "https://developers.snowflake.com",
         "About": "The source code for this application can be accessed on GitHub https://github.com/iamontheinet/data-cloud-summit-countdown",
@@ -33,9 +33,11 @@ with open("app.css") as f:
      st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 with st.container():
-    st.image("https://www.snowflake.com/wp-content/uploads/2023/11/Summit-24-Logo-horz-white-2.png")
-    st.subheader("The World of Data, Apps and AI Collaboration")
-    st.write("MOSCONE CENTER | SAN FRANCISCO | JUNE 3-6, 2024")
+    # st.image("https://www.snowflake.com/wp-content/uploads/2023/11/Summit-24-Logo-horz-white-2.png")
+    # st.subheader("The World of Data, Apps and AI Collaboration")
+    st.subheader("Thank You For Joining Snowflake Summit 24!")
+    st.title("Save The Date For 2025")
+    st.write("MOSCONE CENTER | SAN FRANCISCO | JUNE 2-5, 2025")
 
 st.header(f"{days} Days")
 
